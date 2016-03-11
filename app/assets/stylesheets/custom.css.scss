@@ -23,6 +23,12 @@ $navbar-default-bg: black;
   text-align: center;
 }
 
+.article-meta-details {
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+  margin-bottom: -13px;
+}
+
 .article-actions {
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
@@ -72,3 +78,4 @@ $navbar-default-bg: black;
 textarea {
     resize: none;
 }
+
