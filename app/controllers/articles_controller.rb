@@ -54,7 +54,7 @@ class ArticlesController < ApplicationController
     end
   
     def article_params
-      params.require(:article).permit(:title, :description)
+      params.require(:article).permit(:title, :description, category_ids: []) # category_ids: take the categories in array form, but don't forget to make it plural as it takes many ids or else it won't work.
     end
     
     def require_same_user
