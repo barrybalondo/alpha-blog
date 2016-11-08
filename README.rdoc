@@ -1,1 +1,1 @@
-This is the repository for the first alpha-blog app of the complete Ruby on Rails Developer Course.
+My early attempts on making a web app. This is a blog site made with Rails. Full user functionalities such as categories, authentication login, gravatar pictures, RESTful routes for posts and etc. Admin login is also implemented to have full control on features for the site.
